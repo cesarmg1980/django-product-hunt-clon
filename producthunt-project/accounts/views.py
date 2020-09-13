@@ -25,7 +25,7 @@ def signup(request):
             return render(
                 request,
                 'accounts/signup.html',
-                {'error': 'Passwords must match! Try Again.'}
+                {'error': 'Passwords must match! Please Try Again.'}
             )
     else:
         # User wants to enter info
